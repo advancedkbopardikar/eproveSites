@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-diagnostics" sketch:type="MSLayerGroup">
+            <path d="M3.314,0 L46.686,0 C48.518,0 50,1.483 50,3.312 L50,46.689 C50,48.518 48.518,50 46.686,50 L3.314,50 C1.483,50 0,48.518 0,46.689 L0,3.312 C0,1.483 1.483,0 3.314,0" id="Fill-1" fill="#3793D2" sketch:type="MSShapeGroup"></path>
+            <path d="M28.519,25 C28.519,26.944 26.944,28.519 25.002,28.519 C23.056,28.519 21.481,26.944 21.481,25 C21.481,23.057 23.056,21.481 25.002,21.481 C26.944,21.481 28.519,23.057 28.519,25 L28.519,25 Z" id="Stroke-2" stroke="#FFFFFF" stroke-width="1.598" sketch:type="MSShapeGroup"></path>
+            <path d="M12.413,19.907 L12.413,14.414 C12.413,13.31 13.309,12.414 14.413,12.414 L19.964,12.414 M19.964,37.586 L14.413,37.586 C13.309,37.586 12.413,36.691 12.413,35.586 L12.413,29.846 M37.586,29.827 L37.586,35.586 C37.586,36.862 36.691,37.586 35.586,37.586 L29.884,37.586 M29.884,12.414 L35.586,12.414 C36.691,12.414 37.586,13.31 37.586,14.242 L37.586,19.926" id="Stroke-3" stroke="#FFFFFF" stroke-width="1.598" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

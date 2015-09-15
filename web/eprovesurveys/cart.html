@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>echo&#0153; - Smart Surveys for Continuous Improvement</title>
+    <meta name="description" content="echo - Smart Surveys for Continuous Improvement">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" href="echo-logo-favicon-16px.png">
+    <link rel="icon" href="echo-logo-favicon-128px.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link rel="stylesheet" href="styles/all.css">
+  </head>
+  <body class="landing"><!--[if gt IE 10]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience. </p> <![endif]-->
+    <div data-offcanvas="" class="off-canvas-wrap">
+      <div class="inner-wrap">
+        <nav data-topbar="" role="navigation" class="top-bar app-bar top-bar__surveys">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#"><img src="images/logo-eprove-surveys-dark.svg" class="logo"></a></h1>
+            </li>
+          </ul>
+          <section class="top-bar-section">
+            <ul class="right">
+              <li class="active">Cart</li>
+            </ul>
+          </section>
+        </nav>
+        <div class="main-content">
+          <div class="go-back row">
+            <div class="small-12 column"><a href="plans.html"><span class="icon icon-chevron-left"></span><span>back to plans</span></a></div>
+          </div>
+          <div class="row"></div>
+          <footer class="plans__footer row">
+            <div class="small-12 columns text-center">
+              <p>Still have questions?  For more details, consult our <a href="#">FAQ</a>&nbsp;&ndash;<br>or <a href="#">contact us</a>&nbsp;for more details at <strong>1-888-413-3669</strong></p>
+            </div>
+          </footer>
+        </div>
+      </div>
+      <div id="eProve_buyNow" data-reveal="" aria-labelledby="eProve_buyNow_title" aria-hidden="true" role="dialog" class="reveal-modal small eprove-modal">
+        <h2 id="eProve_buyNow_title" class="text-center">In addition to your System license, how many school licenses will you be purchasing?</h2>
+        <hr>
+        <label>
+          <input type="radio"><span>I am purchasing for
+            <input type="text" class="inline">schools</span>
+        </label>
+        <label>
+          <input type="radio"><span>I am not purchasing any school licenses</span>
+        </label>
+        <hr>
+        <button class="button button--eprove expand">Next</button><a aria-label="Close" class="close-reveal-modal"><span class="icon icon-close"></span></a>
+      </div>
+    </div>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/raw-foundation.js"></script>
+    <script src="scripts/landing-page.js"></script>
+    <!--script(type='text/ng-template' id='partials/autocomplete/autocomplete-schools.html')
+    div(class="autocompleteobjects {{ attrs.class }}", id="{{ attrs.id }}")
+      span(ng-show="fetching", style="left:85%;font-size:80%;position:absolute;z-index:100;")
+        | Loading...
+      input(
+        type="text", ng-model="searchParam", placeholder="{{ attrs.placeholder }}",
+        class="{{ attrs.inputclass }}", id="{{ attrs.inputid }}"
+      )
+      ul(ng-show="completing")
+        li(
+          suggestion-object,
+          ng-repeat="suggestion in matching_suggestions = (suggestions | orderBy:'name') track by $index",
+          index="{{ $index }}", val="{{ suggestion.name ? suggestion.name : suggestion }}",
+          ng-class="{ active: ($index === selectedIndex) }", ng-click="select(suggestion)", data-srcobject="{{suggestion}}"
+        )
+          div(ng-bind-html="(suggestion.name ? suggestion.name : suggestion) | highlight_object:searchParam", ac-line-item="")
+          div(ng-bind-html="[suggestion.address1,suggestion.address2,suggestion.city,suggestion.state,suggestion.postalCode,suggestion.countryCode] | notEmpty | join:', ' | highlight_object:searchParam", style="font-size:80%;", ac-line-item="")
+        li(ng-if="matching_suggestions.length == 0")
+          | {{ noMatchesMsg }}
+    -->
+  </body>
+</html>

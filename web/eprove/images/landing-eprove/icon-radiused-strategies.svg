@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-strategies" sketch:type="MSLayerGroup">
+            <path d="M3.314,0 L46.685,0 C48.516,0 50,1.483 50,3.312 L50,46.688 C50,48.517 48.516,50 46.685,50 L3.314,50 C1.482,50 0,48.517 0,46.688 L0,3.312 C0,1.483 1.482,0 3.314,0" id="Fill-1" fill="#DD6666" sketch:type="MSShapeGroup"></path>
+            <path d="M14.367,10.009 C16.338,10.009 17.937,11.607 17.937,13.58 C17.937,15.553 16.338,17.151 14.367,17.151 C12.394,17.151 10.795,15.553 10.795,13.58 C10.795,11.607 12.394,10.009 14.367,10.009 L14.367,10.009 Z" id="Stroke-2" stroke="#FFFFFF" stroke-width="1.607" sketch:type="MSShapeGroup"></path>
+            <path d="M15.851,13.58 C15.851,14.399 15.188,15.064 14.367,15.064 C13.547,15.064 12.883,14.399 12.883,13.58 C12.883,12.76 13.547,12.096 14.367,12.096 C15.188,12.096 15.851,12.76 15.851,13.58" id="Fill-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M39.203,13.564 L18.059,13.564" id="Stroke-4" stroke="#FFFFFF" stroke-width="1.607" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M14.367,21.429 C16.338,21.429 17.937,23.028 17.937,25 C17.937,26.973 16.338,28.572 14.367,28.572 C12.394,28.572 10.795,26.973 10.795,25 C10.795,23.028 12.394,21.429 14.367,21.429 L14.367,21.429 Z" id="Stroke-5" stroke="#FFFFFF" stroke-width="1.607" sketch:type="MSShapeGroup"></path>
+            <path d="M39.203,25.029 L18.059,25.029" id="Stroke-6" stroke="#FFFFFF" stroke-width="1.607" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M14.367,32.849 C16.338,32.849 17.937,34.448 17.937,36.42 C17.937,38.392 16.338,39.991 14.367,39.991 C12.394,39.991 10.795,38.392 10.795,36.42 C10.795,34.448 12.394,32.849 14.367,32.849 L14.367,32.849 Z" id="Stroke-7" stroke="#FFFFFF" stroke-width="1.607" sketch:type="MSShapeGroup"></path>
+            <path d="M39.203,36.48 L18.059,36.48" id="Stroke-8" stroke="#FFFFFF" stroke-width="1.607" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

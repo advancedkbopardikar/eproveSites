@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html ng-app="eleot" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>eleot&#0153; - The Effective Learning Environments Observation Tool</title>
+    <meta name="description" content="eleot - An innovative, learner-centric classroom observation tool for continuous improvement">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
+    <link rel="stylesheet" href="styles/all.css">
+  </head>
+  <body ng-controller="LandingCtrl" class="landing"><!--[if gt IE 10]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience. </p> <![endif]-->
+    <div data-offcanvas="" class="off-canvas-wrap">
+      <div class="inner-wrap">
+        <header><img src="images/logo-eprove-eleot-white.svg" class="logo"><img src="images/logo-eprove-eleot.svg" class="logo alt">
+          <nav class="secondary show-for-medium-up">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#" data-reveal-id="eProve_contact">Contact Us</a></li>
+              <li><a href="#"><img src="images/logo-eprove-white-reverse.svg"></a></li>
+            </ul>
+          </nav>
+          <nav class="primary show-for-medium-up">
+            <ul>
+              <li><a href="#about-section">Overview</a></li>
+              <li><a href="#features-section">Features</a></li>
+              <li><a href="#screenshots-section">Preview</a></li>
+              <li><a href="#pricing-section">Pricing</a></li>
+              <li><a href="#get-started">Get Started</a></li>
+              <li><a ng-if="!currentUser" href="/app.html#/log-in" class="sign-in">Log In</a></li>
+            </ul>
+          </nav><a href="#" class="right-off-canvas-toggle"><span class="icon-menu"></span></a>
+        </header>
+        <div class="main-content">
+          <div class="hero container">
+            <div class="row">
+              <div class="hero__content">
+                <h1>Have you seen eleot&#0153;?</h1>
+              </div><img src="images/landing/eleot-landing-hero-screen.png" class="hero__img">
+              <div class="hero__content">
+                <p><span>For Apple iOS, Android and Desktop</span><img src="images/landing/logo-platform-apple.svg"><img src="images/landing/logo-platform-android.svg"></p><a href="https://mobileapps.advanc-ed.org/eleot" class="button radius">Get the App</a><a style="margin-left: 25px" data-reveal-id="videoModal" class="button radius">Take a Tour</a>
+              </div>
+            </div>
+          </div>
+          <div id="videoModal" data-reveal aria-labelledby="videoModalTitle" aria-hidden="false" role="dialog" style="height: 70%; width: 60%; padding:0; left: 40%" class="reveal-modal small center popupVideoModal">
+            <iframe id="eleottour" src="" frameborder="0" style="height: 100%; width: 100%; padding:0;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><a id="closeVideoModal" aria-label="Close" class="close-reveal-modal">&#215;</a>
+          </div><a name="about-section"></a>
+          <div id="about" class="container">
+            <div class="row">
+              <div class="medium-12 columns">
+                <h2>It’s time to refocus.  Introducing eleot – <br>An innovative, learner-centric classroom<br>observation tool for continuous improvement</h2>
+                <div class="button-area"><a href="#get-started" class="button radius">Get Started</a>
+                  <hr>
+                </div>
+              </div>
+              <div class="small-12 medium-6 columns">
+                <p class="lead">The Effective Learning Environments Observation Tool (eleot)</p>
+                <p>Experience the power of a learner-centric observation tool that measures and quantifies active student engagement by taking a look at classroom expectations, feedback and learning support.</p>
+                <p>The eleot focuses on seven key learning environments that promote effective learning and student success:</p>
+                <ul>
+                  <li><span>equitable learning</span></li>
+                  <li><span>high expectations</span></li>
+                  <li><span>supportive learning</span></li>
+                  <li><span>active learning</span></li>
+                  <li><span>progress monitoring and feedback</span></li>
+                  <li><span>well-managed learning</span></li>
+                  <li><span>digital learning</span></li>
+                </ul>
+                <ul class="inline-list">
+                  <li><a href="http://www.advanc-ed.org/sites/default/files/mobile_apps/eleot/eleot_wp.pdf" target="_blank">Download Whitepaper</a></li>
+                  <li><a href="http://www.advanc-ed.org/sites/default/files/mobile_apps/eleot/eleot_FAQs.pdf" target="_blank">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="small-12 medium-6 columns show-for-medium-up">
+                <p class="lead">eleot empowers you to:</p>
+                <ul>
+                  <li><span>Evaluate classroom environments by focusing on students</span></li>
+                  <li><span>Reveal strengths and weaknesses using measurable data</span></li>
+                  <li><span>Identify trends by comparing observations across subjects, grade levels and other filters</span></li>
+                  <li><span>Ensure quality and reliability in an intuitive and easy-to-use tool   </span></li>
+                  <li><span>Implement a powerful tool for professional development, peer learning and ongoing improvement </span></li>
+                </ul>
+              </div>
+            </div>
+          </div><a name="features-section"></a>
+          <div class="features__wrap">
+            <div class="row">
+              <h2 class="medium-12 columns">Features</h2>
+            </div>
+            <div id="features">
+              <div class="slider">
+                <div class="container feature">
+                  <div class="row">
+                    <div class="medium-7 columns"><img src="images/landing/eleot-landing-features-1.jpg"></div>
+                    <div class="medium-5 columns">
+                      <h3>A school’s connectivity is never a barrier.</h3>
+                      <p class="lead">A school’s connectivity is never a barrier. Conduct observations online or offline and upload later.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="container feature">
+                  <div class="row">
+                    <div class="medium-7 columns right"><img src="images/landing/eleot-landing-features-2.jpg"></div>
+                    <div class="medium-5 columns right">
+                      <h3>Record key learnings from your observations.</h3>
+                      <p class="lead">Capture important details by taking notes as you go.  Observations and notes are seamlessly organized.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="container feature">
+                  <div class="row">
+                    <div class="medium-7 columns"><img src="images/landing/eleot-landing-features-3.jpg"></div>
+                    <div class="medium-5 columns">
+                      <h3>Become a certified observer.</h3>
+                      <p class="lead">Establish reliability and ensure the validity of your observation data by passing the eleot certification online exam. Asynchronous online training is provided with every license.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><a name="screenshots-section"></a>
+          <div class="screenshots__wrap container">
+            <div class="row">
+              <h2 class="medium-12 columns">Screenshots</h2>
+            </div>
+            <div class="row">
+              <div id="screenshots">
+                <div class="slider">
+                  <div class="screenshot"><img src="images/landing/screenshots/eleot-mobile-01d-dash-search-autofill.jpg"></div>
+                  <div class="screenshot"><img src="images/landing/screenshots/eleot-mobile-04a-observe-nav-closed.jpg"></div>
+                  <div class="screenshot"><img src="images/landing/screenshots/eleot-mobile-01a-dash-observations-synced.jpg"></div>
+                </div>
+              </div>
+            </div>
+            <div class="screenshots__nav prev"><span class="icon-chevron-left"></span></div>
+            <div class="screenshots__nav next"><span class="icon-chevron-right"></span></div>
+          </div>
+          <div class="testimonials__wrap container">
+            <div class="row">
+              <h2 class="medium-12 columns">Testimonials</h2>
+              <p class="medium-12 columns hide-for-medium-up">Proudly trusted by schools and institutions et vero eos et accusamus et iusto odio dignissimos ducimus qui worldwide.</p>
+            </div>
+            <div class="row">
+              <div id="testimonials">
+                <div class="slider">
+                  <div class="testimonial">
+                    <div class="img-container"><img src="http://placehold.it/200"></div>
+                    <p class="lead">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas excepturi."</p>
+                    <p class="author"><span>Anna Janssen</span><br>Principal<br>Banner Academy West HS<br>Chicago, IL</p>
+                  </div>
+                  <div class="testimonial">
+                    <div class="img-container"><img src="http://placehold.it/200"></div>
+                    <p class="lead">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas excepturi."</p>
+                    <p class="author"><span>Anna Janssen</span><br>Principal<br>Banner Academy West HS<br>Chicago, IL</p>
+                  </div>
+                  <div class="testimonial">
+                    <div class="img-container"><img src="http://placehold.it/200"></div>
+                    <p class="lead">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas excepturi."</p>
+                    <p class="author"><span>Anna Janssen</span><br>Principal<br>Banner Academy West HS<br>Chicago, IL</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><a name="pricing-section"></a>
+          <div id="pricing" class="container">
+            <div class="row">
+              <h2 class="medium-12 columns">Pricing</h2>
+              <div class="small-12 medium-8 columns">
+                <p class="lead">$400 per school</p>
+                <p>District pricing available! Contact&nbsp;<a href="mailto:eleotsales@advanc-ed.org" style="margin-bottom: 0;">eleotsales@advanc-ed.org&nbsp;</a>for details.</p>
+                <p>Get unlimited use of eleot for one year, including all reporting features and 3 registrations for online eleot training and certification.</p><a href="mailto:eleotsupport@advanc-ed.org" class="hide-for-medium-up">Interested in multiple trainings?</a><img src="images/landing/logo-payments-amex-grey.svg" class="pricing__logo"><img src="images/landing/logo-payments-visa-grey.svg" class="pricing__logo"><img src="images/landing/logo-payments-mastercard-grey.svg" class="pricing__logo"><img src="images/landing/logo-paypal-grey.svg" class="pricing__logo">
+              </div>
+              <div class="small-12 medium-4 columns show-for-medium-up"><strong>Interested in multiple trainings?</strong>
+                <p>Contact us!</p>
+                <p><a href="mailto:eleotsupport@advanc-ed.org">eleotsupport@advanc-ed.org</a></p>
+              </div>
+            </div>
+          </div><a name="get-started"></a>
+          <div id="get-started" class="container">
+            <div class="row">
+              <h2 class="medium-12 columns">How to Get Started</h2>
+              <div class="get-started__section medium-4 columns"><span class="get-started__num">1</span>
+                <h5 class="get-started__title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+              <div class="get-started__section medium-4 columns"><span class="get-started__num">2</span>
+                <h5 class="get-started__title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+              <div class="get-started__section medium-4 columns"><span class="get-started__num">3</span>
+                <h5 class="get-started__title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="get-started__cta medium-6 columns medium-push-3 text-center">
+                <button href="#" data-reveal-id="eProve_viewPlans" class="button primary expand radius">Get Started</button>
+                <p>Looking to purchase a large number of licenses?<br><a href="#">Contact us</a>&nbsp;- or call 1-888-413-3669</p>
+              </div>
+            </div>
+          </div><a name="signup-section"></a>
+          <footer id="surveys_footer" class="container">
+            <div id="ac-container" class="row">
+              <div class="small-12 medium-8 large-8 columns">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                <p>Creating a world of opportunities for all learners.<br>Copyright &copy; 2015 AdvancED. All Rights Reserved</p>
+              </div>
+              <div class="small-12 medium-4 large-4 columns">
+                <div class="signup__contact"><img src="images/landing/logo-advanced-grey.svg">
+                  <p>9115 Westside Parkway<br>Alpharetta, GA 30009<br>+1 678.392.2285</p><a>888.41ED NOW</a><br><a href="mailto:contactus@advanc-ed.org">contactus@advanc-ed.org</a><br><a href="#" data-reveal-id="eProve_contact">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <aside ng-swipe-right="hideRightMenu($event)" class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#features-section">Features</a></li>
+            <li><a href="#screenshots-section">Screenshots</a></li>
+            <li><a href="#pricing-section">Pricing</a></li>
+            <li ng-if="!currentUser"><a href="#signup-section">Buy Now</a></li>
+            <li ng-if="currentUser"><a href="/app.html">Access eleot</a></li>
+            <li ng-if="!currentUser"><a href="/app.html#/log-in">Log In</a></li>
+          </ul>
+        </aside><a class="exit-off-canvas"></a>
+      </div>
+      <div id="eProve_contact" data-reveal="" aria-labelledby="eProve_contact_title" aria-hidden="true" role="dialog" class="reveal-modal small eprove-modal">
+        <h2 id="eProve_contact_title" class="text-center">Contact Us</h2>
+        <div class="row">
+          <div class="small-12 columns">
+            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          </div>
+        </div>
+        <form>
+          <div class="row">
+            <div class="small-12 columns">
+              <label>
+                <input type="text" placeholder="Name" class="radius">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <label>
+                <input type="text" placeholder="Title" class="radius">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <label>
+                <input type="text" placeholder="Email Address" class="radius">
+              </label><small class="error">Invalid entry</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <label>
+                <input type="text" placeholder="Institution / Organization" class="radius">
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <div class="filter__select--dropdown"><span data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">I'd like additional information about...</span>
+                <ul id="drop1" data-dropdown-content aria-hidden="true" tabindex="-1" class="dropdown f-dropdown">
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <div class="filter__select--dropdown"><span data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">How did you hear about us?</span>
+                <ul id="drop2" data-dropdown-content aria-hidden="true" tabindex="-1" class="dropdown f-dropdown">
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                  <li>
+                    <label>
+                      <input type="checkbox">Lorem
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <label>
+                <textarea placeholder="Add a message (optional" class="radius"></textarea>
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <button data-reveal-id="eProve_messageSent" class="button expand button--eprove">Submit</button>
+            </div>
+          </div>
+        </form><a aria-label="Close" class="close-reveal-modal"><span class="icon icon-close"></span></a>
+      </div>
+      <div id="eProve_messageSent" data-reveal="" aria-labelledby="eProve_messageSent_title" aria-hidden="true" role="dialog" class="reveal-modal small eprove-modal">
+        <div class="message-sent"><span class="outer"><span class="inner"><span class="icon-check"></span></span></span></div>
+        <h2 id="eProve_messageSent_title" class="text-center">Message Sent</h2>
+        <hr>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><a aria-label="Close" class="close-reveal-modal"><span class="icon icon-close"></span></a>
+      </div>
+      <div id="eProve_viewPlans" data-reveal="" aria-labelledby="eProve_viewPlans_title" aria-hidden="true" role="dialog" class="reveal-modal medium eprove-modal">
+        <h2 id="eProve_viewPlans_title">What type of institution are you buying for?</h2><a href="plans.html" class="view-plans__select"><img src="images/icon-schools.svg">
+          <div><strong>For my Individual School</strong>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div></a><a href="plans.html" class="view-plans__select"><img src="images/icon-systems.svg">
+          <div><strong>For my System</strong>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </div></a>
+        <p class="view-plans__desc text-center">Looking to purchase a large number of licenses?<br><a href="#">Contact us</a>&nbsp;&ndash; or call 1-888-413-3669</p><a aria-label="Close" class="close-reveal-modal"><span class="icon icon-close"></span></a>
+      </div>
+    </div>
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/raw-foundation.js"></script>
+    <script src="scripts/landing-page.js"></script>
+    <script type="text/ng-template" id="partials/autocomplete/autocomplete-schools.html">
+      <div id="{{ attrs.id }}" class="autocompleteobjects {{ attrs.class }}"><span ng-show="fetching" style="left:85%;font-size:80%;position:absolute;z-index:100;">Loading...</span>
+        <input type="text" ng-model="searchParam" placeholder="{{ attrs.placeholder }}" id="{{ attrs.inputid }}" class="{{ attrs.inputclass }}">
+        <ul ng-show="completing">
+          <li suggestion-object ng-repeat="suggestion in matching_suggestions = (suggestions | orderBy:'name') track by $index" index="{{ $index }}" val="{{ suggestion.name ? suggestion.name : suggestion }}" ng-class="{ active: ($index === selectedIndex) }" ng-click="select(suggestion)" data-srcobject="{{suggestion}}">
+            <div ng-bind-html="(suggestion.name ? suggestion.name : suggestion) | highlight_object:searchParam" ac-line-item=""></div>
+            <div ng-bind-html="[suggestion.address1,suggestion.address2,suggestion.city,suggestion.state,suggestion.postalCode,suggestion.countryCode] | notEmpty | join:', ' | highlight_object:searchParam" style="font-size:80%;" ac-line-item=""></div>
+          </li>
+          <li ng-if="matching_suggestions.length == 0">{{ noMatchesMsg }}</li>
+        </ul>
+      </div>
+    </script>
+  </body>
+</html>
